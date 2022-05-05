@@ -1,92 +1,95 @@
 import emoji from "react-easy-emoji";
 
 export const greetings = {
-	name: "Hanzla Tauqeer",
-	title: "Hi all, I'm Hanzla",
+	name: "Aadesh Neupane",
+	title: "Namaste, I'm Aadesh",
 	description:
-		"I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
+		"I'm passionate Machine Learning Engineer with an extensive experience in designing scalable Robotics Vision, Computer Vision, and NLP systems. I am looking for a full-time engineering role in autonomous vehicle industry.",
 	resumeLink:
-		"https://drive.google.com/file/d/1Jj4QvvMMhRZQrxngrvlhmuTLhgcisaAp/view?usp=sharing",
+		"https://drive.google.com/file/d/1YLJy5Nm0_2ZbqVWbSIAapu8ugB4_q_hF/view?usp=sharing",
 };
 
 export const openSource = {
-	githubUserName: "1hanzla100",
+	githubUserName: "aadeshnpn",
 };
 
 export const contact = {};
 
 export const socialLinks = {
-	facebook: "https://www.facebook.com/1hanzla100",
-	instagram: "https://www.instagram.com/1hanzla100",
-	twitter: "https://twitter.com/1hanzla100",
-	github: "https://github.com/1hanzla100",
-	linkedin: "https://www.linkedin.com/in/1hanzla100/",
+	twitter: "https://twitter.com/aadeshnpn",
+	github: "https://github.com/aadeshnpn",
+	linkedin: "https://www.linkedin.com/in/aadeshnpn/",
 };
 
 export const skillsSection = {
 	title: "What I do",
 	subTitle:
-		"CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+		"MACHINE LEARNING ENGINEER WHO WANTS TO DESIGN RELIABLE AND SAFE AUTONOMOUS VEHICLES.",
 	data: [
 		{
-			title: "Full Stack Development",
-			lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
+			title: "Machine Learning",
+			lottieAnimationFile: "/lottie/skills/96480-ai-chip-animation.json", // Path of Lottie Animation JSON File
 			skills: [
 				emoji(
-					"⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"
+					"⚡ Building scalable computer vision systems using state-of-the-art visual"
 				),
-				emoji("⚡ Building responsive static websites using Next.js"),
-				emoji(
-					"⚡ Building RESTful APIs in Django & Django REST Framework"
-				),
+				// emoji("⚡ Building responsive static websites using Next.js"),
+				// emoji(
+				// 	"⚡ Building RESTful APIs in Django & Django REST Framework"
+				// ),
 			],
 			softwareSkills: [
 				{
-					skillName: "HTML-5",
-					fontAwesomeClassname: "vscode-icons:file-type-html",
+					skillName: "Cpp",
+					fontAwesomeClassname: "vscode-icons:file-type-cpp",
 				},
 				{
-					skillName: "CSS-3",
-					fontAwesomeClassname: "vscode-icons:file-type-css",
+					skillName: "opencv",
+					fontAwesomeClassname: "logos:opencv",
 				},
 				{
-					skillName: "JavaScript",
-					fontAwesomeClassname: "logos:javascript",
+					skillName: "SciPy",
+					fontAwesomeClassname: "simple-icons:scipy",
 				},
 				{
-					skillName: "Reactjs",
-					fontAwesomeClassname: "vscode-icons:file-type-reactjs",
+					skillName: "Numpy",
+					fontAwesomeClassname: "logos:numpy",
 				},
 				{
-					skillName: "Nextjs",
-					fontAwesomeClassname: "vscode-icons:file-type-light-next",
+					skillName: "PyTorch",
+					fontAwesomeClassname: "logos:pytorch",
 				},
 				{
-					skillName: "Python",
-					fontAwesomeClassname: "logos:python",
+					skillName: "TensorFlow",
+					fontAwesomeClassname: "logos:tensorflow",
 				},
 				{
-					skillName: "Django",
-					fontAwesomeClassname: "vscode-icons:file-type-django",
+					skillName: "Keras",
+					fontAwesomeClassname: "cib:keras",
+				},
+				{
+					skillName: "Pandas",
+					fontAwesomeClassname: "simple-icons:pandas",
+				},
+				{
+					skillName: "R",
+					fontAwesomeClassname: "cib:r",
 				},
 
 				{
-					skillName: "Redux",
-					fontAwesomeClassname: "logos:redux",
+					skillName: "Jupyter",
+					fontAwesomeClassname: "logos:jupyter",
 				},
+
 				{
-					skillName: "NPM",
-					fontAwesomeClassname: "logos:npm-icon",
-				},
-				{
-					skillName: "Yarn",
-					fontAwesomeClassname: "logos:yarn",
+					skillName: "Onnx",
+					fontAwesomeClassname: "simple-icons:onnx",
 				},
 			],
 		},
 		{
-			title: "Cloud Infra-Architecture",
-			lottieAnimationFile: "/lottie/skills/cloudinfra.json", // Path of Lottie Animation JSON File
+			title: "Evolutionary Robotics",
+			lottieAnimationFile: "/lottie/skills/4228-robot-arm.json", // Path of Lottie Animation JSON File
 			skills: [
 				emoji("⚡ Experience of working on multiple cloud platforms"),
 				emoji(
@@ -97,6 +100,23 @@ export const skillsSection = {
 				),
 			],
 			softwareSkills: [
+
+				{
+					skillName: "ROS",
+					fontAwesomeClassname: "simple-icons:ros",
+				},
+				{
+					skillName: "Java",
+					fontAwesomeClassname: "vscode-icons:file-type-java",
+				},
+				{
+					skillName: "Python",
+					fontAwesomeClassname: "logos:python",
+				},
+				{
+					skillName: "Django",
+					fontAwesomeClassname: "vscode-icons:file-type-django",
+				},
 				{
 					skillName: "AWS",
 					fontAwesomeClassname: "logos:aws",
@@ -104,10 +124,6 @@ export const skillsSection = {
 				{
 					skillName: "Azure",
 					fontAwesomeClassname: "logos:microsoft-azure",
-				},
-				{
-					skillName: "Heroku",
-					fontAwesomeClassname: "logos:heroku-icon",
 				},
 				{
 					skillName: "PostgreSQL",
@@ -121,27 +137,27 @@ export const skillsSection = {
 					skillName: "Docker",
 					fontAwesomeClassname: "logos:docker-icon",
 				},
-				{
-					skillName: "Github Actions",
-					fontAwesomeClassname: "logos:github-actions",
-				},
-				{
-					skillName: "Cloudinary",
-					fontAwesomeClassname: "logos:cloudinary",
-				},
-				{
-					skillName: "Nginx",
-					fontAwesomeClassname: "logos:nginx",
-				},
-				{
-					skillName: "Sentry",
-					fontAwesomeClassname: "logos:sentry-icon",
-				},
+				// {
+				// 	skillName: "Github Actions",
+				// 	fontAwesomeClassname: "logos:github-actions",
+				// },
+				// {
+				// 	skillName: "Cloudinary",
+				// 	fontAwesomeClassname: "logos:cloudinary",
+				// },
+				// {
+				// 	skillName: "Nginx",
+				// 	fontAwesomeClassname: "logos:nginx",
+				// },
+				// {
+				// 	skillName: "Sentry",
+				// 	fontAwesomeClassname: "logos:sentry-icon",
+				// },
 			],
 		},
 		{
-			title: "Blockchain",
-			lottieAnimationFile: "/lottie/skills/ethereum.json", // Path of Lottie Animation JSON File
+			title: "Autonomous Vehicle",
+			lottieAnimationFile: "/lottie/skills/74839-car-isometric-3d-animation-navigation-car-red-car-in-nature-car-on-the-road.json", // Path of Lottie Animation JSON File
 			skills: [
 				emoji(
 					"⚡ Experience in developing Smart Contract using Solidity & Ethereum"
@@ -161,12 +177,12 @@ export const skillsSection = {
 			],
 			softwareSkills: [
 				{
-					skillName: "Ethereum",
-					fontAwesomeClassname: "logos:ethereum",
+					skillName: "CARLA",
+					// fontAwesomeClassname: "logos:ethereum",
 				},
 				{
-					skillName: "Solidity",
-					fontAwesomeClassname: "logos:solidity",
+					skillName: "MPC",
+					// fontAwesomeClassname: "logos:solidity",
 				},
 				{
 					skillName: "Web3js",
